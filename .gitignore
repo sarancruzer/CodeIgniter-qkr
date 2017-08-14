@@ -1,0 +1,6 @@
+/user_guide/*
+/application/config/*
+/application/cache/*
+/application/logs/*
+/.htaccess
+/index.php	

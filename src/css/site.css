@@ -1,0 +1,342 @@
+/* CSS Document */
+
+body {
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+.text-muted {
+	color: #777;
+}
+.text-primary {
+	color: #fed136;
+}
+p {
+	font-size: 14px;
+	line-height: 1.75;
+}
+p.large {
+	font-size: 16px;
+}
+a, a:hover, a:focus, a:active, a.active {
+	outline: 0;
+}
+a {
+	color: #fed136;
+}
+a:hover, a:focus, a:active, a.active {
+	color: #fec503;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.img-centered {
+	margin: 0 auto;
+}
+.bg-light-gray {
+	background-color: #f7f7f7;
+}
+.bg-darkest-gray {
+	background-color: #222;
+}
+.btn {
+	border-radius: 0px;
+}
+.btn-custom {
+	border: 1px solid #fff;
+	background: none;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+.btn-custom:hover {
+	background: #fff;
+	color: #1f396c;
+}
+.btn-primary {
+	border-color: #fed136;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	background-color: #fed136;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	border-color: #f6bf01;
+	color: #fff;
+	background-color: #fec503;
+}
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-image: none;
+}
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+	border-color: #fed136;
+	background-color: #fed136;
+}
+.btn-primary .badge {
+	color: #fed136;
+	background-color: #fff;
+}
+.btn-xl {
+	padding: 20px 40px;
+	border-color: #fed136;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #fed136;
+}
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+	border-color: #f6bf01;
+	color: #fff;
+	background-color: #fec503;
+}
+.btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+	background-image: none;
+}
+.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
+	border-color: #fed136;
+	background-color: #fed136;
+}
+.btn-xl .badge {
+	color: #fed136;
+	background-color: #fff;
+}
+.navbar-default {
+	border-color: transparent;
+	background-color: #222;
+}
+.navbar-default .navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: 700;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+	color: #fff;
+}
+.navbar-default .navbar-collapse {
+	border-color: rgba(255,255,255,.02);
+}
+.navbar-default .navbar-toggle {
+	border-color: #fed136;
+	background-color: #fed136;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #fed136;
+}
+.navbar-default .nav li a {
+	text-transform: capitalize;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	margin: 0 30px;
+	padding: 15px 0px;
+}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+	outline: 0;
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a {
+	border-radius: 0;
+	color: #fff;
+	background-color: #fed136;
+}
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #fec503;
+}
+ @media(min-width:768px) {
+.navbar-default {
+	padding: 25px 0;
+	border: 0;
+	background-color: transparent;
+	-webkit-transition: padding .3s;
+	-moz-transition: padding .3s;
+	transition: padding .3s;
+}
+.navbar-default .navbar-brand {
+	font-size: 2em;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+.navbar-default .navbar-nav>.active>a {
+	border-radius: 3px;
+}
+.navbar-default.navbar-shrink {
+	padding: 10px 0;
+	background-color: #222;
+}
+.navbar-default.navbar-shrink .navbar-brand {
+	font-size: 1.5em;
+}
+}
+header {
+	text-align: center;
+	color: #fff;
+	background-attachment: scroll;
+	background-image: url(../images/slider/slide.jpg);
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+header .intro-text {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+	margin-bottom: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 22px;
+}
+header .intro-text .intro-heading {
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+@media(min-width:768px) {
+header .intro-text {
+	padding-top: 200px;/*padding-bottom: 200px;*/
+}
+header .intro-text .intro-lead-in {
+	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 40px;
+}
+header .intro-text .intro-heading {
+	margin-bottom: 50px;
+	text-transform: capitalize;
+	font-family: 'Raleway', sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 75px;
+}
+}
+.box1 {
+	background: #1f396c;
+	min-height: 230px;
+	padding: 30px;
+}
+.box2 {
+	background: #686b85;
+	min-height: 230px;
+	padding: 30px;
+}
+.box3 {
+	background: #c1e6f6;
+	min-height: 230px;
+	padding: 30px;
+}
+.box1 h1, .box2 h1, .box3 h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.box1 h2, .box2 h2, .box3 h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	text-transform: none;
+	margin-bottom: 10px;
+}
+.box1 p, .box2 p, .box3 p {
+	font-size: 14px;
+	font-weight: 500;
+}
+.box3 h1, .box3 h2, .box3 p {
+	color: #1f396c;
+}
+.box1 p a, .box2 p a, .box3 p a {
+	background: #fff;
+	padding: 0px 20px 0px 0px;
+	margin-left: -30px;
+	color: #27447d;
+	font-size: 16px;
+	position: absolute;
+	bottom: 0px;
+}
+.box2 p a {
+	color: #686b85;
+}
+.box1 p a:hover, .box2 p a:hover, .box3 p a:hover {
+	text-decoration: none;
+	background: #c1e6f6;
+}
+.box1 p a i {
+	background: #27447d;
+	color: #fff;
+	padding: 13px 15px;
+	margin-right: 10px;
+}
+.box2 p a i {
+	background: #787b93;
+	color: #fff;
+	padding: 13px 15px;
+	margin-right: 10px;
+}
+.box3 p a i {
+	background: #1f396c;
+	color: #fff;
+	padding: 13px 15px;
+	margin-right: 10px;
+}
+.full-text {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	padding: 50px 0px;
+}
+.full-text p {
+	font-size: 25px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+}
+.full-text p strong {
+	font-size: 30px;
+}
+.home-links-section { background:#c1e6f6; padding-top:60px;}
+.flinks-box { margin:0px 5px 60px; background:#d4eef9; padding:20px; border-radius:4px;}
+.flinks-box:hover { background:#1f396c;}
+.flinks-box h3 { font-size:16px; text-transform:capitalize; margin:0 0 20px 0; padding:0; color:#1f396c;}
+.flinks-box ul{ list-style:none; margin:0; padding:0;}
+.flinks-box ul li { line-height:28px;}
+.flinks-box ul li a { color:#1f396c; font-family: 'Roboto', sans-serif; font-size:14px; font-weight:500;}
+.flinks-box:hover h3 { color:#d5eef9;}
+.flinks-box:hover ul li a { color:#fff;}
+.col-lg-3 { width:24%;}
+.twitter-block { background:#1f396c; padding:20px 0px;}
+footer { padding:30px 0px 20px; border-bottom:3px solid #1f396c;}
+footer p {color:#1f396c; padding-bottom:10px;}
+footer p a{ color:#1f396c;}
+footer p a:hover { color:#2b2b2b; text-decoration:none;}
+footer p a img { margin:0px 3px;}
